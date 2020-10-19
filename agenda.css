@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    width: 98%;
+    height: 100%;
+}
+
+#contenair{
+    border-collapse: collapse;
+    border: solid 1px;
+    width: 100%;
+    margin:10px;
+   
+}
+
+th,td{
+    border:solid 1px;
+    padding:
+}
+
+.horaires{
+    background-color: aquamarine;
+}
+
