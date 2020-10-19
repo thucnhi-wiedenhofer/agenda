@@ -2,22 +2,85 @@ body{
     margin: 0px;
     width: 98%;
     height: 100%;
+    background-color: rgb(248, 246, 236);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#contenair{
+.contenair{
     border-collapse: collapse;
     border: solid 1px;
     width: 100%;
-    margin:10px;
-   
+    margin:px;
+    font-size: 13px;
 }
 
-th,td{
-    border:solid 1px;
-    padding:
+details{
+    margin-left: 2%;
+    border:none;
+    background-color:rgb(226, 223, 223);
+    padding: 5px 10px;
 }
 
-.horaires{
-    background-color: aquamarine;
+details a{
+    text-decoration: none;
+    color: black;
+}
+details a:hover{
+    color: rgb(99, 163, 4);
 }
 
+h1{
+    text-align: center;
+}
+
+caption{
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+th{
+    border:solid 2px;
+    padding: 10px;
+    font-size: 16px;
+    table-layout: fixed;
+    width:12.5%;
+}
+
+td{
+    border: solid 1px;
+    padding: 5px;
+    text-align: center;
+    height: 35px;
+}
+
+.horaires td{
+    background-color: rgb(217, 223, 223);
+    
+}
+
+.sommeil {
+    background-color: rgb(178, 146, 207);
+}
+
+#repas{
+    background-color: rgb(163, 245, 81);
+}
+
+.yoga{
+    background-color: darkcyan;
+}
+.rappel span{
+    color: red;
+    font-size: large;
+}
+
+.perso span{
+    color:blue;
+    font-size: large;
+}
+
+.pro  span{
+    color: rgb(5, 148, 5);
+    font-size: large;
+}
