@@ -10,7 +10,7 @@ body{
     border-collapse: collapse;
     border: solid 1px;
     width: 100%;
-    margin:px;
+    
     font-size: 13px;
 }
 
@@ -83,4 +83,35 @@ td{
 .pro  span{
     color: rgb(5, 148, 5);
     font-size: large;
+}
+
+footer a{
+   border: solid 1px;
+    border-radius: 10px;
+    width: 12%;
+    margin:50px;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 185, 185);
+   color: black;
+       
+}
+
+footer a:hover{
+    transform: scale(1.2);
+}
+
+/*css formlaire*/
+
+#box{
+    display: flex;
+    justify-content: center;
+}
+form{
+    border:solid 1px;
+    border-radius: 5px;
+    width: 30%;
+    ;
 }

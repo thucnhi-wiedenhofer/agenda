@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenda.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+        <h1>Créer un évènement</h1>
+    </header>
+
+    <main id="box">
+        <form action="agenda.html" method="post">
+            <label for="titre">Ajouter un titre</label>
+            <input type="text" name="titre" id="titre">
+            <br>
+            <label for="description">Déscription</label>
+            <textarea name="description" id="description" cols="30" rows="1"></textarea>
+            <br>
+            <input type="radio" name="choice" value="event" id="event">
+            <label for="event">Evènement</label>
+            <input type="radio" name="choice" value="rappel" id="rappel">
+            <label for="rappel">Rappel</label>
+            <input type="radio" name="choice" value="task" id="task">
+            <label for="task">Tâche</label>
+            <br>
+            <label for="date">date</label>
+            <input type="date" name="date"  value="date" id="date">
+            <br>
+            <label for="hour">Heure</label>
+            <input type="time" name="hour" value="hour" id="hour">
+            <input type="time" name="hour" value="hour" id="hour">
+            <br>
+            <input type="checkbox" name="durée">
+            <label for="durée">Toute la journée</label>
+            <br>
+            <select name="frequence" id="frequence">
+                <option value="once">Une seule fois</option>
+                <option value="everyday">Tous les jours</option>
+                <option value="evryweekday">Tous les jours de la semaine(du lundi au vendredi)</option>
+                <option value="personnaliser">Personnaliser</option>
+            </select>
+            <br>
+            <label for="color">selectionner une couleur</label>
+           <select name="color" id="color">
+            <option value="perso"class="perso"><span >&#9679</span></option>
+            <option value="pro" class="pro"><span >&#9679</span></option>
+            <option value="rappel" class="rappel"><span>&#9679</span></option>
+            </select>
+            <br>
+            <select name="etat" id="etat">
+                <option value="occupé">occupé</option>
+                <option value="dispo">disponible</option>
+            </select>
+            <br>
+            <label for="notification">Notification</label>
+            <select name="notifification" id="notification">
+                <option value="5min">5 minutes avant</option>
+                <option value="10min">10 minutes avant</option>
+                <option value="15min">15 minutes avant</option>
+                <option value="1h">1 heure avant</option>
+                <option value="1jour">1 jour avant</option>
+            </select>
+            <br>
+            <input type="submit" value="Enregistrer">
+
+        </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
